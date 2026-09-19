@@ -126,18 +126,6 @@ Add an `opencode.json` at your project root to share settings with your team. Ke
 - **`opencode: command not found`:** open a new shell, or check that the install directory is on your PATH.
 - **PowerShell blocks the script:** run `Set-ExecutionPolicy -Scope Process Bypass` for that session only.
 
-## Repository layout
-
-```text
-opencode-setup/
-├── assets/logo.svg
-├── scripts/install.sh
-├── scripts/install.ps1
-├── .github/workflows/lint.yml
-├── .gitignore
-├── LICENSE
-└── README.md
-```
 
 ## Contributing
 
